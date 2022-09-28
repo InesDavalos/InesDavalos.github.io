@@ -1,10 +1,19 @@
-body {
-  font-family: 'OpenSans, Helvetica, sans-serif';
+/* Font family: Montserrat*/
+/*http://fonts.cdnfonts.com/css/montserrat*/
+html, body, .tooltip, .popover {
+  font-family: 'Montserrat', sans-serif;
 }
+code, kbd, pre, samp, .text-monospace {
+  font-family: 'Montserrat', sans-serif;
+}
+button, input, optgroup, select, textarea {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*----------------------------------------------*/
 
 header {
   text-align: right;
-  font-family: 'OpenSans, Helvetica, sans-serif';
   color: white;
 }
 
@@ -19,9 +28,8 @@ header {
 
 .carousel-item {
   height: 500px;
-  /* width: auto; */
-
 }
 
-
-
+footer a{
+  color: white;
+}
