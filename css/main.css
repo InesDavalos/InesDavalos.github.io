@@ -1,17 +1,27 @@
+body {
+  font-family: 'OpenSans, Helvetica, sans-serif';
+}
 
-body { margin-top: 0em; margin-top: 0em;
-    font-family: 'Times New Roman', Times, serif; 
-    }
 header {
   text-align: right;
-    font-family: 'comic sans-serif';
-    color: white;
- }
+  font-family: 'OpenSans, Helvetica, sans-serif';
+  color: white;
+}
+
+.carousel-item img {
+  filter: grayscale(50%);
+}
+
+.carousel-caption {
+  text-align: right;
+  padding-left: 500px;
+}
+
+.carousel-item {
+  height: 500px;
+  /* width: auto; */
+
+}
 
 
-/* .text-with-background {
 
-    background-image: url('img/ba1.jpg');
-    
-    
-} */
