@@ -17,6 +17,7 @@ header {
   color: white;
 }
 
+
 .carousel-item img {
   filter: grayscale(50%);
 }
@@ -30,6 +31,15 @@ header {
   height: 500px;
 }
 
-footer a{
-  color: white;
+
+.navbar{
+
+  background-color:rgb(13, 37, 145)
+
+}
+
+.nav-item{
+  
+  font-size: small;
+  text-align: center;
 }
