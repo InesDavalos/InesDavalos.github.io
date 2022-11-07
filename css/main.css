@@ -1,12 +1,25 @@
 /* Font family: Montserrat*/
 /*http://fonts.cdnfonts.com/css/montserrat*/
-html, body, .tooltip, .popover {
+html,
+body,
+.tooltip,
+.popover {
   font-family: 'Montserrat', sans-serif;
 }
-code, kbd, pre, samp, .text-monospace {
+
+code,
+kbd,
+pre,
+samp,
+.text-monospace {
   font-family: 'Montserrat', sans-serif;
 }
-button, input, optgroup, select, textarea {
+
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -32,14 +45,18 @@ header {
 }
 
 
-.navbar{
+.navbar {
 
-  background-color:rgb(13, 37, 145)
-
+  background-color: rgb(13, 37, 145)
 }
 
-.nav-item{
-  
+.nav-item {
   font-size: small;
   text-align: center;
+}
+
+.formulario {
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
 }
